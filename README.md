@@ -2,7 +2,7 @@
 
 ## What?
 
-This is a minimal repo based on the *Docker* section of http://www.flowable.org/downloads.html.
+This is a minimal repo based on the *Docker* section of http://www.flowable.org/downloads.html.<br/>
 It's an updated all-in-one version of https://github.com/jensaug/docker-compose-flowable-postgres
 
 It provides the flowable all-in-one with a persistent postgres backend for local use.
