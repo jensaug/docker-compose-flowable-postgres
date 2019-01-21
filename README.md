@@ -1,10 +1,10 @@
-# docker-compose-flowable
+# docker-compose-flowable-postgres
 
 ## What?
 
 This is a minimal repo based on the *Docker* section of http://www.flowable.org/downloads.html.
 
-It provides the flowable suite with a persistent postgres backend for local use.
+It provides the flowable all-in-one with a persistent postgres backend for local use.
 
 That's it.
 
