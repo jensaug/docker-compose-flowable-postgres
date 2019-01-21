@@ -12,7 +12,6 @@ services:
             - datasource.password=flowable
         ports:
             - 8080:8080
-        entrypoint: ["./wait-for-something.sh", "flowable-db", "5432", "PostgreSQL", "java", "-jar", "flowable-idm.jar", "-httpPort=8080", "-httpProtocol=org.apache.coyote.http11.Http11NioProtocol"]
     flowable-db:
         extends:
             file: postgres.yml
